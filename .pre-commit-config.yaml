@@ -1,0 +1,11 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: isort
+        name: Sorting Imports
+        entry: isort
+        language: python
+        args: ["-y"]
+        files: \.py$
+        exclude: (.*/migrations/.*)$
+        requirements: true
