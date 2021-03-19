@@ -7,7 +7,7 @@ cfgv==1.1.0
 chardet==3.0.4
 decorator==4.3.0
 Django==1.11.5
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 flake8==3.5.0
 httpie==0.9.9
 identify==1.1.3
